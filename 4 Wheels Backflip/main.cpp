@@ -13,10 +13,10 @@ int main()
 	InitPlayer(player);
 
 	while (!WindowShouldClose())
-	{
-		BeginDrawing();
-
+	{		
 		UpdatePlayer(player);
+
+		BeginDrawing();
 
 		DrawPlayer(player);
 
